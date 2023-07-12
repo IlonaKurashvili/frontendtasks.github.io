@@ -1,0 +1,163 @@
+
+/* Header START */
+header {
+    position: relative;
+    margin: auto;
+    width:1440px
+}
+.navline {
+    position: absolute;
+    position: relative;
+    margin-left: 130px;
+    width:1180px;
+    
+}
+.logo img{
+
+    position: absolute;
+    max-width: 180px;
+}
+/* Nav START */
+nav {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 480px;
+}
+
+nav ul li { display: inline-block;} 
+
+nav ul { list-style: none;}
+
+nav ul li a { 
+    text-decoration: none;
+    padding-left: 121px;
+}
+
+nav ul li a.visited {
+    color:  red;
+}
+/* Nav E N D */
+
+.cover img {
+   
+    margin-top: 96px;
+}
+
+/* Headr E N D */
+
+/* Content START */
+
+.maincontent {
+    margin: auto;
+    position: relative;
+    width: 1440px;
+    height: 400px;
+    background: #FFFFFF;
+}
+.maincontent h1 {
+    margin-top: 120px;
+    margin-left: 130px;
+    color: #17326E;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.maincontent p {
+    margin-left: 130px;
+    width: 780px;
+    color: #090346;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Content E N D */
+
+/* Gallery START */
+.gallery {
+    margin: auto;
+    position: relative;
+    width: 1440px;
+    height: 439px;
+    background: #EBEBF0;
+    padding-top: 159px;
+    text-align: center;
+    
+}
+.gallery_img {
+    position: absolute;
+    margin-left: 130px;
+}
+.aboutInfo {
+    position: absolute;
+    text-align: left;
+    margin-left: 130px;
+    width: 520px;
+}
+.aboutImg {
+    position: absolute;
+    margin-left: 777px;
+}
+
+.contactInfo {
+    position: absolute;
+    text-align: left;
+    margin-left: 130px;
+    width: 325px;
+}
+.contactMap {
+    position: absolute;
+    margin-left: 577px;
+}
+/* Gallery E N D */
+
+/* Contact info START */
+.contactInfo ul { list-style: none; padding-left: 0; }
+.contactInfo span {color:#0e58f7}
+
+.contactInfo ul li a { 
+    text-decoration: none;
+    color: black;
+    
+}
+/* Contact info E N D */
+
+/* Footer START */
+
+footer {
+
+    margin: auto;
+    position: relative;
+    background: #19126B;
+    width: 1440px;
+    height: 161px;
+
+}
+
+.iconset {
+
+    margin: 50px 1090px 51px 130px;
+    position: absolute;
+    width: 220px;
+    height: 60px;
+
+}
+.copyright {
+
+    margin: 50px 130px 91px 1080px;
+    position: absolute;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+/* Footer E N D */
